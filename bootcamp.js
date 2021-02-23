@@ -1,17 +1,9 @@
 function isEven(n) {
-  if(n%2 == 0)
-  return true;
-  else
-  return false;
-  // Write your code here that will return true if n is an even number otherwise false
+  return n % 2 === 0;
 }
 
 function isOdd(n) {
-  if(n%2 != 0)
-  return true;
-  else 
-  false;
-  // Write your code here that will return true if n is an odd number otherwise false
+  return n % 2 === 1;
 }
 
 /* DO NOT EDIT ANYTHING BELOW THIS LINE */
